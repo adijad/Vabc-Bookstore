@@ -1,0 +1,167 @@
+/* Main banner */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*section{*/
+/*    width: 1200px;*/
+/*    height: 800px;*/
+
+/*}*/
+
+section .main{
+    /*width: 1200px;*/
+    /*height: 800px;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 54px;
+    right: 0px;
+    left: 0px;
+}
+
+section .main h1{
+    position: absolute;
+    text-align: left;
+    font-size: 45px;
+    top: 260px;
+    left: 25px;
+}
+
+section .main h1 span{
+    color: #cbb9ea;
+}
+
+section .main p{
+    width: 650px;
+    text-align: justify;
+    line-height: 22px;
+    position: relative;
+    top: 125px;
+    left: 25px;
+}
+
+section .main .main_tag .main_btn{
+    background: #000000;
+    padding: 10px 20px;
+    position: absolute;
+    top: 365px;
+    left: 25px;
+    color: #fff;
+    width: 160px;
+    /* text-decoration: none; */
+    border-radius: 6px;
+    transition: background 0.3s ease;
+}
+
+section .main .main_tag .main_btn:hover {
+    background: #cbb9ea;
+    color: #000000;
+}
+
+section .main .main_img img{
+    width: 580px;
+    position: absolute;
+    top: 74px;
+    right: 204px;
+}
+
+/* Cart info */
+
+.cart{
+    width: 1200px;
+    height: auto;
+    margin-top: 200px;
+    display: flex;
+    left: 200px;
+}
+
+.cart .cart_box{
+    /* width: 95%; */
+    margin: 0 auto;
+}
+
+.cart .cart_box i {
+    font-size: 24px;
+}
+
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*    font-family: sans-serif;*/
+/*}*/
+
+/*section {*/
+/*    width: 100%;*/
+/*    max-width: 1200px;*/
+/*    height: 800px;*/
+/*    margin: 0 auto; !* Center the section horizontally *!*/
+/*}*/
+
+/*section .main {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-around;*/
+/*    position: fixed;*/
+/*    top: 0px;*/
+/*    margin-right: 0px;*/
+/*    margin-left: 1000px;*/
+/*}*/
+
+/*section .main h1 {*/
+/*    position: relative;*/
+/*    font-size: 4.5em; !* Adjust font size with em units *!*/
+/*    top: 2em; !* Adjust top position with em units *!*/
+/*    right: 17em; !* Adjust right position with em units *!*/
+/*}*/
+
+/*section .main p {*/
+/*    max-width: 65%; !* Adjust width with percentage units *!*/
+/*    text-align: justify;*/
+/*    line-height: 22px;*/
+/*    position: relative;*/
+/*    top: 6.25em; !* Adjust top position with em units *!*/
+/*    left: 1.25em; !* Adjust left position with em units *!*/
+/*}*/
+
+/*section .main .main_tag .main_btn {*/
+/*    background: #000000;*/
+/*    padding: 1em 2em; !* Adjust padding with em units *!*/
+/*    position: relative;*/
+/*    top: 5em; !* Adjust top position with em units *!*/
+/*    right: 17em; !* Adjust right position with em units *!*/
+/*    color: #fff;*/
+/*    width: 16em; !* Adjust width with em units *!*/
+/*    border-radius: 6px;*/
+/*}*/
+
+/*section .main .main_img img {*/
+/*    width: 55%; !* Adjust width with percentage units *!*/
+/*    position: relative;*/
+/*    top: 3em; !* Adjust top position with em units *!*/
+/*    right: 8.25em; !* Adjust right position with em units *!*/
+/*}*/
+
+/*!* Cart info *!*/
+
+/*.cart {*/
+/*    width: 100%;*/
+/*    max-width: 1200px;*/
+/*    height: auto;*/
+/*    margin-top: 20%; !* Adjust margin-top with percentage units *!*/
+/*    display: flex;*/
+/*    margin-left: 20%; !* Adjust margin-left with percentage units *!*/
+/*}*/
+
+/*.cart .cart_box {*/
+/*    margin: 0 auto;*/
+/*}*/
+
+/*.cart .cart_box i {*/
+/*    font-size: 2.4em; !* Adjust font size with em units *!*/
+/*}*/

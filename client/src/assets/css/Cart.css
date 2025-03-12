@@ -1,0 +1,13 @@
+.Cart_heading {
+    padding-top: 30px;
+    padding-bottom: 120px;
+}
+.Cart_heading h1 {
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 0px;
+    margin-top: -650px;
+}
+
