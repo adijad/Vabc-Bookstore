@@ -6,10 +6,10 @@ Currently, the application is deployed locally, but in future phases, it will be
 ## Architecture
 ![image](https://github.com/sm5190/PaperTown-Book-store/assets/53345331/f9300e75-1607-4f82-9740-14ca90cb6307)
 ### About server:
-•The API allows us to serve clients other than React browser clients (e.g. mobile phones)
-•It can be versioned and support many formats
-•The business layer is separated from the API. Model objects and logic (e.g. validation) can be re-used in many different APIs and applications.
-•If we wanted to change our database, changes would be isolated to our Data Access Layer.This involves carefully wrapping exceptions to hide details
+* The REST API allows the application to serve multiple clients, including mobile devices.
+* The business logic is decoupled from the API layer, making it reusable across different applications.
+* The Data Access Layer (DAL) abstracts database interactions, making it easier to migrate to AWS RDS in later phases.
+* Currently deployed locally, with plans for cloud deployment using AWS EC2, RDS, API Gateway, and Lambda for scalability.
 ## About Client:
 ![image](https://github.com/sm5190/PaperTown-Book-store/assets/53345331/7b1661dd-39fc-414a-b504-06ffdfee7259)
 •The React client is separately build-able, and deployed separately
