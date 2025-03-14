@@ -12,7 +12,6 @@ Currently, the application is deployed locally, but in future phases, it will be
 * Currently deployed locally, with plans for cloud deployment using AWS EC2, RDS, API Gateway, and Lambda for scalability.
 ## About Client:
 ![image](https://github.com/sm5190/PaperTown-Book-store/assets/53345331/7b1661dd-39fc-414a-b504-06ffdfee7259)
-•The React client is separately build-able, and deployed separately
-•Web developers can work independently via the API
-•React Components are reusable
-•React Components are responsive
+* The React client is built separately and can be independently deployed.
+* The frontend follows a modular component-based architecture, ensuring code reusability and maintainability.
+* The UI is responsive, supporting multiple screen sizes and providing a smooth user experience.
