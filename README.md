@@ -18,14 +18,14 @@ Currently, the application is deployed locally, but in future phases, it will be
 
 
 
-# ** AWS Deployment Details**  
+# AWS Deployment Details  
 
-## ** Overview**  
+## Overview 
 This project has been successfully **migrated to AWS** to improve **scalability, performance, and security**. The entire infrastructure is hosted using **AWS services**, ensuring **high availability and fault tolerance**.  
 
 ![image](https://github.com/adijad/Vabc-Bookstore/blob/main/Cloud_Architecture.png)
 
-### ** AWS Deployment Overview**  
+### AWS Deployment Overview  
 - The **public subnet** hosts a **public EC2 instance (Tomcat Server)** that handles frontend and API requests.  
 - The **private subnet** hosts a **private EC2 instance (MySQL Database)** that securely communicates with the backend.  
 - **AWS Route 53** is used for DNS resolution, linking the domain **`cloudbookstore.biz`** to the **Elastic IP** of the public EC2 instance.  
@@ -34,7 +34,7 @@ This project has been successfully **migrated to AWS** to improve **scalability,
 
 ---
 
-## ** AWS Services Used**
+## AWS Services Used
 | **Component**      | **AWS Service Used** | **Purpose** |
 |--------------------|---------------------|-------------|
 | **Frontend**      | AWS S3 + CloudFront  | Hosts the **React.js frontend** with global CDN caching |
@@ -46,9 +46,9 @@ This project has been successfully **migrated to AWS** to improve **scalability,
 
 ---
 
-## ** AWS Network Configuration**  
+## AWS Network Configuration 
 
-### ** Public Subnet (Frontend & API Server)**
+### Public Subnet (Frontend & API Server)
 - **EC2 (Tomcat Server) is deployed in the Public Subnet.**  
 - Exposed to the internet via an **Elastic IP & Internet Gateway**.  
 - Allows inbound traffic on **port 80/443 (HTTP/HTTPS)** for public access.  
