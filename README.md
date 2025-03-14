@@ -53,12 +53,12 @@ This project has been successfully **migrated to AWS** to improve **scalability,
 - Exposed to the internet via an **Elastic IP & Internet Gateway**.  
 - Allows inbound traffic on **port 80/443 (HTTP/HTTPS)** for public access.  
 
-### ** Private Subnet (MySQL Database)**
+### Private Subnet (MySQL Database)
 - **EC2 (MySQL Database) is deployed in the Private Subnet** (No direct internet access).  
 - Only allows traffic **from the Public EC2 instance on port 3306 (MySQL)**.  
 - **NAT Gateway is configured** to allow outbound internet access (for security updates).  
 
-### ** AWS Route 53 - Domain & DNS**
+### AWS Route 53 - Domain & DNS
 - The domain **`cloudbookstore.biz`** is linked to the **Elastic IP of the Public EC2 instance**.  
 - Ensures that all API & frontend requests go through the **registered domain name** instead of a raw IP address.  
 
